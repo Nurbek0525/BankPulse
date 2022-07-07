@@ -87,9 +87,9 @@ class HomeController extends Controller
         );
         $title = 'Bank Pulse';
 
-        $current_year = date('Y');
+        $current_year = 2020;
         $last_year = $current_year -1;
-        $month = date('m');
+        $month = 12;
         $region_id = 13;
         $current_data_table = 'balance_'.$current_year;
         $last_data_table = 'balance_'.$last_year;
